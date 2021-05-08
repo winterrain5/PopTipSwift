@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PopTipSwift'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'a pop tip for swift versiob'
 
 

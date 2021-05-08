@@ -1,9 +1,9 @@
 //
 //  PopTip.swift
-//  AMPopTip
+//  PopTipSwift
 //
-//  Created by Andrea Mazzini on 01/05/2017.
-//  Copyright © 2017 Andrea Mazzini. All rights reserved.
+//  Created by Derrick on 08/05/2021.
+//  Copyright © 2017 Victor. All rights reserved.
 //
 
 import UIKit
