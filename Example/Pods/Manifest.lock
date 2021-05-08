@@ -1,0 +1,16 @@
+PODS:
+  - PopTipSwift (0.1.0)
+
+DEPENDENCIES:
+  - PopTipSwift (from `../`)
+
+EXTERNAL SOURCES:
+  PopTipSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PopTipSwift: a5e133fbf765905e8adf711005f3b8b1e99f7bf9
+
+PODFILE CHECKSUM: 6cd6dca75b32db299244c0d03dd850d4ebf96608
+
+COCOAPODS: 1.10.0.rc.1

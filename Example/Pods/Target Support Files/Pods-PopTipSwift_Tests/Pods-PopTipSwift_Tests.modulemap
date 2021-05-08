@@ -1,0 +1,6 @@
+framework module Pods_PopTipSwift_Tests {
+  umbrella header "Pods-PopTipSwift_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

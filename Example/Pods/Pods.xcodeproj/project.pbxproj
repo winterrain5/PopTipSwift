@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		149FB69EC4F090DA418DAE6782B12435 /* Pods-PopTipSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 898E286B96D0F8316D8ADCA98925EB3D /* Pods-PopTipSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DDC87E4BE0A48DE9163A9E517357BB /* Pods-PopTipSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A63904FBD31272E2DAF35F309F7548 /* Pods-PopTipSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		509CC3AAF0C16F05F8D97832E1906A8D /* PopTip+Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD5291B393C069EB12010ADAF4D02A4 /* PopTip+Transitions.swift */; };
+		57A319016572155EB7EE0642C4D2804C /* PopTipSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE7AE945AAE4C4B3DC1D1E65C5077255 /* PopTipSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6289058DF563D18561883FCF0613CBDF /* Pods-PopTipSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F41E2B9ED4EB1E53CB7D58690029030 /* Pods-PopTipSwift_Tests-dummy.m */; };
+		6DF2775EEB0028CA8D43440FC3F25167 /* PopTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60C530BA0D0387317F305FC3042C222 /* PopTip.swift */; };
+		7EFECD06DE958654335699101B03149E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		815A0FE8B49CC859071C3F071DA40A5B /* PopTipSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15391F76799D1E77187EBBEEBC8F3746 /* PopTipSwift-dummy.m */; };
+		AF02A23DF8B165816616D7897B90CF76 /* Pods-PopTipSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9174C1A235961C95C07FC147A68BCFAE /* Pods-PopTipSwift_Example-dummy.m */; };
+		B1CB76BF1748CB745B043D62456C0774 /* PopTip+Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD81CEC714B0AFC4A4B34197B5257DC /* PopTip+Draw.swift */; };
+		D83298C15A597BB3C2B7667FB7D1F009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F891A48952AF01EB1AE415C0FE1CF4E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4442293D2A09874F5097494B16DF4CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8FA7BA136D0CBE172D2B14E3ECB7C5;
+			remoteInfo = "Pods-PopTipSwift_Example";
+		};
+		9DBF162E1A12C9C4D2379718564BB1E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3614D81B39B29A0519856ACD21A09D74;
+			remoteInfo = PopTipSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BF9248B9471A1E492CC8DC0FB7ED927 /* Pods-PopTipSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PopTipSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		15391F76799D1E77187EBBEEBC8F3746 /* PopTipSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopTipSwift-dummy.m"; sourceTree = "<group>"; };
+		167922DE14ADC2EEB682B7CB596CA9C2 /* PopTipSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopTipSwift.release.xcconfig; sourceTree = "<group>"; };
+		2CCF23DEB69A00028AF8628A2F1530AE /* Pods-PopTipSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PopTipSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		321DA1363FE6BA41765318EFAF47DD53 /* PopTipSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PopTipSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		344016044A564585D0254C8F02BCF911 /* Pods-PopTipSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PopTipSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3AD6480A5364BA34C9DBED4EECB4C70C /* PopTipSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PopTipSwift.modulemap; sourceTree = "<group>"; };
+		3E0B98A6731956502C7C4CAF67B80AB1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		44355421A7D13464700CAC86A3FFD766 /* Pods_PopTipSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PopTipSwift_Tests.framework; path = "Pods-PopTipSwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5248822B66B90CECE71817B3CF791D61 /* Pods_PopTipSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PopTipSwift_Example.framework; path = "Pods-PopTipSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F41E2B9ED4EB1E53CB7D58690029030 /* Pods-PopTipSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PopTipSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78A63904FBD31272E2DAF35F309F7548 /* Pods-PopTipSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PopTipSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7DD5291B393C069EB12010ADAF4D02A4 /* PopTip+Transitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopTip+Transitions.swift"; path = "PopTipSwift/Classes/PopTip+Transitions.swift"; sourceTree = "<group>"; };
+		7E302136A9F893E76F8A7D261AE1F5CD /* Pods-PopTipSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PopTipSwift_Example.modulemap"; sourceTree = "<group>"; };
+		898E286B96D0F8316D8ADCA98925EB3D /* Pods-PopTipSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PopTipSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		9174C1A235961C95C07FC147A68BCFAE /* Pods-PopTipSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PopTipSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		96E42D608E0291E1EA8BDAEEE3BCE395 /* Pods-PopTipSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PopTipSwift_Tests-Info.plist"; sourceTree = "<group>"; };
+		98C885893A14BC55EFCC3D4DC21A56CC /* PopTipSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PopTipSwift-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B19D603391F2AAE5813EDDE510FABB3D /* Pods-PopTipSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PopTipSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7342DA9A4C33E93999CFEB63A83424A /* Pods-PopTipSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PopTipSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7945D28E065D2434F4E450FA4AD5E53 /* Pods-PopTipSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PopTipSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BBCD858C0293355E822423860C646EB8 /* PopTipSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopTipSwift.debug.xcconfig; sourceTree = "<group>"; };
+		C7525558B403DBDF4773D4BF1D1878B6 /* Pods-PopTipSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PopTipSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CE895FB49D30A354BE068FF508482F3E /* Pods-PopTipSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PopTipSwift_Example-Info.plist"; sourceTree = "<group>"; };
+		D4F11BEB9D21CDDF7EA6D7D27160D224 /* Pods-PopTipSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PopTipSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		D60C530BA0D0387317F305FC3042C222 /* PopTip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopTip.swift; path = PopTipSwift/Classes/PopTip.swift; sourceTree = "<group>"; };
+		DE7AE945AAE4C4B3DC1D1E65C5077255 /* PopTipSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopTipSwift-umbrella.h"; sourceTree = "<group>"; };
+		DF05D7EF602989B054AF910F70DD4A58 /* PopTipSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PopTipSwift.framework; path = PopTipSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB9BA9C4643C55357237BA1C7C28610 /* Pods-PopTipSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PopTipSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5796742008F16172F1C5F7FBEFF495F /* PopTipSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopTipSwift-prefix.pch"; sourceTree = "<group>"; };
+		F67D06720F00EDE578DDD55F78FE018D /* Pods-PopTipSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PopTipSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FB18E528430CDF48BD9DD2838B0555B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FFD81CEC714B0AFC4A4B34197B5257DC /* PopTip+Draw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopTip+Draw.swift"; path = "PopTipSwift/Classes/PopTip+Draw.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B11828FEA200A6692C37413A5B57F28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F891A48952AF01EB1AE415C0FE1CF4E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CBC88F03BCF6A35F135DCA81E450193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFECD06DE958654335699101B03149E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61544B9F056DFA4E70B226B3F70E6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83298C15A597BB3C2B7667FB7D1F009 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		175C6FAA6909EF76980297BCE8D0CAF4 /* Pods-PopTipSwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D4F11BEB9D21CDDF7EA6D7D27160D224 /* Pods-PopTipSwift_Tests.modulemap */,
+				B19D603391F2AAE5813EDDE510FABB3D /* Pods-PopTipSwift_Tests-acknowledgements.markdown */,
+				B7945D28E065D2434F4E450FA4AD5E53 /* Pods-PopTipSwift_Tests-acknowledgements.plist */,
+				5F41E2B9ED4EB1E53CB7D58690029030 /* Pods-PopTipSwift_Tests-dummy.m */,
+				96E42D608E0291E1EA8BDAEEE3BCE395 /* Pods-PopTipSwift_Tests-Info.plist */,
+				78A63904FBD31272E2DAF35F309F7548 /* Pods-PopTipSwift_Tests-umbrella.h */,
+				EAB9BA9C4643C55357237BA1C7C28610 /* Pods-PopTipSwift_Tests.debug.xcconfig */,
+				C7525558B403DBDF4773D4BF1D1878B6 /* Pods-PopTipSwift_Tests.release.xcconfig */,
+			);
+			name = "Pods-PopTipSwift_Tests";
+			path = "Target Support Files/Pods-PopTipSwift_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		754D8B761A7FB9CE99982230231D7572 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5248822B66B90CECE71817B3CF791D61 /* Pods_PopTipSwift_Example.framework */,
+				44355421A7D13464700CAC86A3FFD766 /* Pods_PopTipSwift_Tests.framework */,
+				DF05D7EF602989B054AF910F70DD4A58 /* PopTipSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C627235403BF8397BBC7391A880ADD9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3E0B98A6731956502C7C4CAF67B80AB1 /* LICENSE */,
+				321DA1363FE6BA41765318EFAF47DD53 /* PopTipSwift.podspec */,
+				FB18E528430CDF48BD9DD2838B0555B9 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A59053709A36ED8672AF91FB41DEF0CF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AD6480A5364BA34C9DBED4EECB4C70C /* PopTipSwift.modulemap */,
+				15391F76799D1E77187EBBEEBC8F3746 /* PopTipSwift-dummy.m */,
+				98C885893A14BC55EFCC3D4DC21A56CC /* PopTipSwift-Info.plist */,
+				F5796742008F16172F1C5F7FBEFF495F /* PopTipSwift-prefix.pch */,
+				DE7AE945AAE4C4B3DC1D1E65C5077255 /* PopTipSwift-umbrella.h */,
+				BBCD858C0293355E822423860C646EB8 /* PopTipSwift.debug.xcconfig */,
+				167922DE14ADC2EEB682B7CB596CA9C2 /* PopTipSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PopTipSwift";
+			sourceTree = "<group>";
+		};
+		CA4FA88C7F4D2EB1CC96D725062DF556 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1A66CA2EBAA6CDA480C8E23ABF8C041 /* PopTipSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CA4FA88C7F4D2EB1CC96D725062DF556 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				754D8B761A7FB9CE99982230231D7572 /* Products */,
+				F505BE6B6BA829F49CCF19091348B9E4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1A66CA2EBAA6CDA480C8E23ABF8C041 /* PopTipSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D60C530BA0D0387317F305FC3042C222 /* PopTip.swift */,
+				FFD81CEC714B0AFC4A4B34197B5257DC /* PopTip+Draw.swift */,
+				7DD5291B393C069EB12010ADAF4D02A4 /* PopTip+Transitions.swift */,
+				7C627235403BF8397BBC7391A880ADD9 /* Pod */,
+				A59053709A36ED8672AF91FB41DEF0CF /* Support Files */,
+			);
+			name = PopTipSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3B134DFFA6A06548802BC215723E774 /* Pods-PopTipSwift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7E302136A9F893E76F8A7D261AE1F5CD /* Pods-PopTipSwift_Example.modulemap */,
+				B7342DA9A4C33E93999CFEB63A83424A /* Pods-PopTipSwift_Example-acknowledgements.markdown */,
+				0BF9248B9471A1E492CC8DC0FB7ED927 /* Pods-PopTipSwift_Example-acknowledgements.plist */,
+				9174C1A235961C95C07FC147A68BCFAE /* Pods-PopTipSwift_Example-dummy.m */,
+				2CCF23DEB69A00028AF8628A2F1530AE /* Pods-PopTipSwift_Example-frameworks.sh */,
+				CE895FB49D30A354BE068FF508482F3E /* Pods-PopTipSwift_Example-Info.plist */,
+				898E286B96D0F8316D8ADCA98925EB3D /* Pods-PopTipSwift_Example-umbrella.h */,
+				344016044A564585D0254C8F02BCF911 /* Pods-PopTipSwift_Example.debug.xcconfig */,
+				F67D06720F00EDE578DDD55F78FE018D /* Pods-PopTipSwift_Example.release.xcconfig */,
+			);
+			name = "Pods-PopTipSwift_Example";
+			path = "Target Support Files/Pods-PopTipSwift_Example";
+			sourceTree = "<group>";
+		};
+		F505BE6B6BA829F49CCF19091348B9E4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3B134DFFA6A06548802BC215723E774 /* Pods-PopTipSwift_Example */,
+				175C6FAA6909EF76980297BCE8D0CAF4 /* Pods-PopTipSwift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32A6B7EEC9368B2026762D524BA3CB94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149FB69EC4F090DA418DAE6782B12435 /* Pods-PopTipSwift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EA5FC0D2170259DB93004C0B25B136 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A319016572155EB7EE0642C4D2804C /* PopTipSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9125FC4246BAC1C96ADCD56A730FF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DDC87E4BE0A48DE9163A9E517357BB /* Pods-PopTipSwift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3614D81B39B29A0519856ACD21A09D74 /* PopTipSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58414B86A62F8936AF9BE5BAA8384FC8 /* Build configuration list for PBXNativeTarget "PopTipSwift" */;
+			buildPhases = (
+				95EA5FC0D2170259DB93004C0B25B136 /* Headers */,
+				BA6FBE791646048B1144093F7C3A8EB8 /* Sources */,
+				6CBC88F03BCF6A35F135DCA81E450193 /* Frameworks */,
+				04A4913239DE97257363E85F99A84449 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopTipSwift;
+			productName = PopTipSwift;
+			productReference = DF05D7EF602989B054AF910F70DD4A58 /* PopTipSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED8FA7BA136D0CBE172D2B14E3ECB7C5 /* Pods-PopTipSwift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A494B3A08BC62BF2AAA35F17F7FDDAD /* Build configuration list for PBXNativeTarget "Pods-PopTipSwift_Example" */;
+			buildPhases = (
+				32A6B7EEC9368B2026762D524BA3CB94 /* Headers */,
+				C7B6D9F7229B4122BF9E283D93290F14 /* Sources */,
+				0B11828FEA200A6692C37413A5B57F28 /* Frameworks */,
+				455BA8681BE0277155C811E12F974C25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1B8F7A5B80181BC6F522259A61CFD26 /* PBXTargetDependency */,
+			);
+			name = "Pods-PopTipSwift_Example";
+			productName = "Pods-PopTipSwift_Example";
+			productReference = 5248822B66B90CECE71817B3CF791D61 /* Pods_PopTipSwift_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCCA0B20D1D53E3A74A8E7E9861272D0 /* Pods-PopTipSwift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2433BAA3474BE5D41B489140FF2B948 /* Build configuration list for PBXNativeTarget "Pods-PopTipSwift_Tests" */;
+			buildPhases = (
+				FA9125FC4246BAC1C96ADCD56A730FF5 /* Headers */,
+				CDDA515B8E43E510AA51C1986BA7582A /* Sources */,
+				F61544B9F056DFA4E70B226B3F70E6CF /* Frameworks */,
+				7E904FD77B2FAC67F6A17E07FD97C7F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC72EE5A4B4D42399DF5F8C1483EBC4F /* PBXTargetDependency */,
+			);
+			name = "Pods-PopTipSwift_Tests";
+			productName = "Pods-PopTipSwift_Tests";
+			productReference = 44355421A7D13464700CAC86A3FFD766 /* Pods_PopTipSwift_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 754D8B761A7FB9CE99982230231D7572 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED8FA7BA136D0CBE172D2B14E3ECB7C5 /* Pods-PopTipSwift_Example */,
+				FCCA0B20D1D53E3A74A8E7E9861272D0 /* Pods-PopTipSwift_Tests */,
+				3614D81B39B29A0519856ACD21A09D74 /* PopTipSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A4913239DE97257363E85F99A84449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455BA8681BE0277155C811E12F974C25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E904FD77B2FAC67F6A17E07FD97C7F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA6FBE791646048B1144093F7C3A8EB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1CB76BF1748CB745B043D62456C0774 /* PopTip+Draw.swift in Sources */,
+				509CC3AAF0C16F05F8D97832E1906A8D /* PopTip+Transitions.swift in Sources */,
+				6DF2775EEB0028CA8D43440FC3F25167 /* PopTip.swift in Sources */,
+				815A0FE8B49CC859071C3F071DA40A5B /* PopTipSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B6D9F7229B4122BF9E283D93290F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF02A23DF8B165816616D7897B90CF76 /* Pods-PopTipSwift_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDDA515B8E43E510AA51C1986BA7582A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6289058DF563D18561883FCF0613CBDF /* Pods-PopTipSwift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC72EE5A4B4D42399DF5F8C1483EBC4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PopTipSwift_Example";
+			target = ED8FA7BA136D0CBE172D2B14E3ECB7C5 /* Pods-PopTipSwift_Example */;
+			targetProxy = 4442293D2A09874F5097494B16DF4CC9 /* PBXContainerItemProxy */;
+		};
+		F1B8F7A5B80181BC6F522259A61CFD26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopTipSwift;
+			target = 3614D81B39B29A0519856ACD21A09D74 /* PopTipSwift */;
+			targetProxy = 9DBF162E1A12C9C4D2379718564BB1E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		216F80FC70AA5FCE6B6201382EFB60C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 167922DE14ADC2EEB682B7CB596CA9C2 /* PopTipSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PopTipSwift/PopTipSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopTipSwift/PopTipSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopTipSwift/PopTipSwift.modulemap";
+				PRODUCT_MODULE_NAME = PopTipSwift;
+				PRODUCT_NAME = PopTipSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5684EEB949AFEDE8BD3026F0B96B611A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F67D06720F00EDE578DDD55F78FE018D /* Pods-PopTipSwift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PopTipSwift_Example/Pods-PopTipSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PopTipSwift_Example/Pods-PopTipSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66F72F5A5987004037AE36AEB1E2A904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 344016044A564585D0254C8F02BCF911 /* Pods-PopTipSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PopTipSwift_Example/Pods-PopTipSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PopTipSwift_Example/Pods-PopTipSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A977C97ACE8AF230D805C12D8B0B2B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7525558B403DBDF4773D4BF1D1878B6 /* Pods-PopTipSwift_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PopTipSwift_Tests/Pods-PopTipSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PopTipSwift_Tests/Pods-PopTipSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E68238EE8ADBA6EFAD392F9CD6098DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBCD858C0293355E822423860C646EB8 /* PopTipSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PopTipSwift/PopTipSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopTipSwift/PopTipSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopTipSwift/PopTipSwift.modulemap";
+				PRODUCT_MODULE_NAME = PopTipSwift;
+				PRODUCT_NAME = PopTipSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E79BD1F7B81626FF9E075A98E8E5F473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB9BA9C4643C55357237BA1C7C28610 /* Pods-PopTipSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PopTipSwift_Tests/Pods-PopTipSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PopTipSwift_Tests/Pods-PopTipSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58414B86A62F8936AF9BE5BAA8384FC8 /* Build configuration list for PBXNativeTarget "PopTipSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E68238EE8ADBA6EFAD392F9CD6098DF9 /* Debug */,
+				216F80FC70AA5FCE6B6201382EFB60C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A494B3A08BC62BF2AAA35F17F7FDDAD /* Build configuration list for PBXNativeTarget "Pods-PopTipSwift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F72F5A5987004037AE36AEB1E2A904 /* Debug */,
+				5684EEB949AFEDE8BD3026F0B96B611A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2433BAA3474BE5D41B489140FF2B948 /* Build configuration list for PBXNativeTarget "Pods-PopTipSwift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79BD1F7B81626FF9E075A98E8E5F473 /* Debug */,
+				A977C97ACE8AF230D805C12D8B0B2B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

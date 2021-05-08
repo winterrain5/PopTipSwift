@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import PopTipSwift
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -18,6 +18,14 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if let location = touches.first?.location(in: self.view) {
+            let popTip = PopTip()
+            popTip.show(text: "Hey! Listen!", direction: .up, maxWidth: 200, in: view, from: CGRect(x: location.x, y: location.y, width: 100, height: 40))
+        }
+      
     }
 
 }
